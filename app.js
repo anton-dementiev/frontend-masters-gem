@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-	res.send('Hello World');
+	res.send('This sample app was developed for Frontend Masters course. Pushed from Github repo');
 
 });
 
