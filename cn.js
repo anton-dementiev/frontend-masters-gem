@@ -11,7 +11,7 @@ let cn = mysql.createConnection(
 
 cn.connect();
 
-cn.query("select * from test", function(error, results, fields){
+cn.query("select * from clients", function(error, results, fields){
     if (error) throw error;
     console.log("Successfully connected to the database on the server");
 });
