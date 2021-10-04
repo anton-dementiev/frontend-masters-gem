@@ -5,7 +5,7 @@ let cn = mysql.createConnection(
         host     : 'localhost',
         user     : 'anton',
         password : '123',
-        database : 'test'
+        database : 'fundemic'
       }
 );
 
