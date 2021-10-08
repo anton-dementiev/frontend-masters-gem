@@ -1,7 +1,23 @@
+
+require('dotenv').config();
 const express = require('express');
 const app = express();
 const port = 3000;
 
+//Database - @TODO delete
+const sequelize = require('sequelize');
+
+//Load models into sequelize
+const db = require('./models/index');
+
+const clients =  db.clients.findAll({
+	where: {
+		id: 1,
+	}
+}).then( result =>{
+	console.log('Queried table');
+	console.log(result);
+});
 
 app.get('/', (req, res) => {
 	
