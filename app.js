@@ -14,7 +14,7 @@ app.use('/api', apiRoutes);
 
 app.get('/', (req, res) => {
 	
-	res.send('This sample app was developed for Frontend Masters course. Pushed from Github repo');
+	res.send(`Production environment is ${process.env.NODE_ENV}`);
 
 });
 
