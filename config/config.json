@@ -14,8 +14,8 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": "309013abraham",
+    "username": "anton",
+    "password": "123",
     "database": "fundemic",
     "host": "127.0.0.1",
     "dialect": "mysql"
