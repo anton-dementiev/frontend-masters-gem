@@ -2,6 +2,7 @@ const crypto = require('crypto');
 
 const checkSecret = (req, res, next) => {
     
+    console.log(req.headers);
     const temp = "0e8875debb9cbe4f5c2ac1a625b030665ae32e0ac2c4f03827d6d69441a91743";
     const authHeader = req.headers.authorization ? req.headers.authorization.split(' ')[1] : false;
     console.log(authHeader);
