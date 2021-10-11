@@ -2,7 +2,7 @@
   "development": {
     "username": "root",
     "password": "309013abraham",
-    "database": "fundemic",
+    "database": "fundemic_test",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
